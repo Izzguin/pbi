@@ -29,7 +29,8 @@
               "state": {
                 "file": "TLX Basics C++.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "TLX Basics C++"
