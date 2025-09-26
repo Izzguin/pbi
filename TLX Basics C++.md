@@ -665,7 +665,225 @@ int main() {
 
 ```
 
+###  B. Perkenalan Larik (Array)
+diselesaikan oleh Atharizz
+```cpp
+#include <iostream>
+using namespace std;
 
+int main() {
+    int luas[5];
 
+    luas[0] = 225 * 335;
+    luas[1] = 215 * 394;
+    luas[2] = 198 * 400;
+    luas[3] = 314 * 298;
+    luas[4] = 299 * 278;
 
+    int hasil = 0;
+
+    for (int i = 0; i < 5; i++) {
+        if (luas[i] >= 80000) {
+            hasil++;
+        }
+    }
+
+    cout << hasil << endl;
+}
+
+```
+
+###  C. Kandang Terbesar
+diselesaikan oleh Atharizz
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int luas[5];
+
+    luas[0] = 225 * 335;
+    luas[1] = 215 * 394;
+    luas[2] = 198 * 400;
+    luas[3] = 314 * 298;
+    luas[4] = 299 * 278;
+
+    // Buat sebuah variabel yang menampung luas terbesar.
+    // Pada awalnya, isi variabel tersebut dengan luas dari kandang pertama.
+    int terbesar = luas[0];
+
+    // Untuk setiap kandang sisanya:
+    for (int i = 1; i < 5; i++) {
+        // Jika luasnya lebih besar daripada variabel luas terbesar:
+        if (luas[i] > terbesar) {
+            // Perbarui nilai variabel luas terbesar dengan luas kandang tersebut.
+            terbesar = luas[i];
+        }
+    }
+
+    cout << terbesar << endl;
+}
+
+```
+
+###  D. Jual-Beli Bebek III
+diselesaikan oleh Atharizz
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int beli[10] = {13, 100, 0, 4, 31, 0, 178, 23, 1, 13};
+    int jual[10] = {0, 2, 24, 0, 10, 4, 0, 121, 0, 15};
+
+    int bebek=0;
+
+    for (int i = 0; i < 10; i++) {
+        bebek+= beli[i]-jual[i];
+        cout << bebek << endl;
+    }
+}
+
+```
+
+###  E. Bermain Lampu Kandang
+diselesaikan oleh Atharizz
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    bool lampu[101];
+
+    // Pada mulanya, seluruh lampu dalam kondisi mati.
+    for (int i = 1; i <= 100; i++) {
+        lampu[i] = false;
+    }
+
+    // Untuk setiap jam (pukul p),
+    for (int p = 1; p <= 10; p++ ) {
+        // untuk setiap lampu nomor i,
+        for (int i = 1; i <= 100; i++ ) {
+            // jika i merupakan kelipatan p,
+            if (i % p == 0) {
+                // tekan saklarnya.
+                lampu[i] = !lampu[i];
+            }
+        }
+    }
+
+    // Hitung banyaknya lampu yang menyala,
+    int menyala = 0;
+    for( int i = 1; i <= 100; i++){
+        if(lampu[i]){
+            menyala++;
+        }
+    }
+
+    // lalu cetak.
+    cout << menyala << endl;
+}
+
+```
+
+###  F. Toko Kandang II
+diselesaikan oleh Atharizz
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int luas[4][3] = {
+        {225 * 335, 299 * 278, 300 * 250},
+        {215 * 394, 144 * 718, 300 * 290},
+        {200 * 400, 240 * 333, 142 * 619},
+        {314 * 298, 411 * 198, 333 * 222}
+    };
+
+    int total = 0;
+
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 3; j++) {
+            if(luas[i][j] >= 80000) {
+            total++;
+            }
+        }
+    }
+
+    cout << total << endl;
+}
+
+```
+
+###  G. Menutup Toko
+diselesaikan oleh Atharizz
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int luas[4][3] = {
+        {225 * 335, 299 * 278, 300 * 250},
+        {215 * 394, 144 * 718, 300 * 290},
+        {200 * 400, 240 * 333, 142 * 619},
+        {314 * 298, 411 * 198, 333 * 222}
+    };
+
+    int harga_jual[3] = {100, 120, 150};
+    long long hasil[3] = {0, 0, 0};
+
+    for(int j = 0; j < 3; j++){
+        for(int i = 0; i < 4; i++){
+                (hasil[j] += luas[i][j] * harga_jual[j]);
+            }
+           cout << hasil[j] << endl; 
+        }
+    }
+
+```
+
+###  H. Rangkuman: Larik
+diselesaikan oleh Atharizz
+
+## BAB 7
+
+###  A. Memborong Bebek
+diselesaikan oleh Atharizz
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int jantan[4] = {0, 10, 50, 60};
+    int betina[4] = {7, 80, 9, 40};
+
+    for (int i = 0; i < 4; i++) {
+        int harga_bebek;
+
+        // hitung biaya membeli bebek-bebek jantan
+        if (jantan[i] < 10) {
+            harga_bebek = 100000;
+        } else if (jantan[i] >= 10 && jantan[i] <= 50) {
+            harga_bebek = 75000;
+        } else {
+            harga_bebek = 50000;
+        }
+        int biaya_jantan = jantan[i] * harga_bebek;
+
+        // hitung biaya membeli bebek-bebek betina
+        if (betina[i] < 10) {
+            harga_bebek = 100000;
+        } else if (betina[i] >= 10 && betina[i] <=50) {
+            harga_bebek = 75000;
+        } else {
+            harga_bebek = 50000;
+        }
+        int biaya_betina = betina[i] * harga_bebek;
+
+        // cetak total biaya
+        cout << biaya_jantan + biaya_betina << endl;
+    }
+}
+
+```
 
