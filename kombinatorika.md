@@ -9,3 +9,4 @@ rumus : n!/(n-r)! x r!
 7C2 = 7C5
 7!/5! x 2! = 7!/2! x 5!
 rumus : nCr = nC(n-r)
+hitung mundur : 7C2 = 7x6/2x1 = 21 : 7 mundur sebagai r kali begitupun untuk r, r mundur sebanyak r kali

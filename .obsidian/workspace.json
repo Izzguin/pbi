@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -228,10 +228,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "acf9a3049ee767e3",
+  "active": "a82801dccec8ab44",
   "lastOpenFiles": [
-    "Permutasi.md",
     "kombinatorika.md",
+    "Permutasi.md",
     "Faktorial.md",
     "C++.md",
     "TLX Basics C++.md",
