@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "C++"
             }
+          },
+          {
+            "id": "acf9a3049ee767e3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,7 +182,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "333e894f26faeac8",
+  "active": "acf9a3049ee767e3",
   "lastOpenFiles": [
     "TLX Basics C++.md",
     "Untitled 1.canvas",
