@@ -25,10 +25,14 @@
             "id": "acf9a3049ee767e3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Permutasi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Permutasi"
             }
           },
           {
@@ -74,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -224,10 +228,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8dc3217b55386c71",
+  "active": "acf9a3049ee767e3",
   "lastOpenFiles": [
-    "Permutasi.md",
     "kombinatorika.md",
+    "Permutasi.md",
     "Faktorial.md",
     "C++.md",
     "TLX Basics C++.md",
