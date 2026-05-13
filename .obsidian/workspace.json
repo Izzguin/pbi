@@ -88,8 +88,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,19 +184,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "809d95a6ee643f10",
+  "active": "35302bfda0e73a60",
   "lastOpenFiles": [
-    "Coding_Python/Hello_world.py",
-    "Coding_Python",
-    "New folder",
-    "Coding_C++/vjudge/20260430/d.exe",
-    "Coding_C++/vjudge/20260430/d.cpp",
-    "Coding_C++/vjudge/20260430/c.exe",
-    "Coding_C++/vjudge/20260430/c.cpp",
-    "Coding_C++/vjudge/20260430/b.exe",
-    "Coding_C++/vjudge/20260430/b.cpp",
-    "Coding_C++/vjudge/20260430/a.exe",
-    "Coding_C++/vjudge/20260430/a.cpp",
+    "Coding_C++/vjudge/20260507/g.cpp",
+    "OSP_training/2025/a.cpp",
+    "OSP_training/2025",
+    "vjudge/20260408/a.cpp",
+    "vjudge/20260408",
+    "vjudge/20260422/d.cpp",
+    "vjudge/20260422",
+    "vjudge/20260416/b.cpp",
+    "vjudge/20260416",
+    "vjudge/20260507/h.cpp",
+    "vjudge/20260507",
     "kombinatorika.md",
     "Permutasi.md",
     "Untitled 1.canvas",
