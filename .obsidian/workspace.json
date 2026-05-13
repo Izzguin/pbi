@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -224,11 +224,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "872f3a6bb160fc22",
+  "active": "8dc3217b55386c71",
   "lastOpenFiles": [
-    "Faktorial.md",
-    "kombinatorika.md",
     "Permutasi.md",
+    "kombinatorika.md",
+    "Faktorial.md",
     "C++.md",
     "TLX Basics C++.md",
     "Untitled 1.canvas",
