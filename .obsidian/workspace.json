@@ -30,9 +30,51 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "8dc3217b55386c71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kombinatorika.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "kombinatorika"
+            }
+          },
+          {
+            "id": "a82801dccec8ab44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permutasi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Permutasi"
+            }
+          },
+          {
+            "id": "872f3a6bb160fc22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Faktorial.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Faktorial"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -182,14 +224,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "acf9a3049ee767e3",
+  "active": "872f3a6bb160fc22",
   "lastOpenFiles": [
+    "Faktorial.md",
+    "kombinatorika.md",
+    "Permutasi.md",
+    "C++.md",
     "TLX Basics C++.md",
     "Untitled 1.canvas",
     "Untitled.md",
     "SOAL SOAL/SOAL SOAL.md",
     "Untitled.canvas",
-    "C++.md",
     "SOAL SOAL",
     "tlx10f.exe",
     "tlx10f.cpp",
