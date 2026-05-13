@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5a0a74273c7f5234",
+        "id": "b6a3a5330ba9f406",
         "type": "tabs",
         "children": [
           {
-            "id": "1df6217ff1b0e65a",
+            "id": "dcdea7e47bb0e02d",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -167,10 +167,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1df6217ff1b0e65a",
+  "active": "dcdea7e47bb0e02d",
   "lastOpenFiles": [
-    "SOAL SOAL/SOAL SOAL.md",
     "TLX Basics C++.md",
+    "C++.md",
+    "Untitled.canvas",
+    "Untitled.md",
+    "SOAL SOAL/SOAL SOAL.md",
     "SOAL SOAL",
     "tlx10f.exe",
     "tlx10f.cpp",
